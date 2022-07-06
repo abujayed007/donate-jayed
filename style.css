@@ -1,0 +1,100 @@
+.text h1 {
+    font-weight: bolder;
+
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text p {
+    font-size: 30px;
+
+}
+
+section {
+    display: flex;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.flood {
+    background-image: url("images/donation9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sylet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.text {
+
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+
+}
+
+#dec {
+    background-image: linear-gradient(rgb(206, 145, 31) rgb(190, 47, 22));
+    color: whitesmoke;
+    text-decoration: none;
+
+
+}
+
+.button {
+    text-size-adjust: 10px;
+    padding: 10px 40px;
+    border-radius: 4px;
+    margin-top: 50px;
+    font-weight: 800;
+    background-color: rgb(255, 145, 0);
+    background-size: 60px 15px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-95%, -5%)
+}
+
+.mom {
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nani {
+    align-items: center;
+    margin-left: 350px;
+    width: 50%;
+    padding: 10px;
+}
+
+#nana h1 {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.nani p {
+    text-align-last: center;
+}
+
+.deer {
+    margin-right: 20%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+}
