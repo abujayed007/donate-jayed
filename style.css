@@ -1,4 +1,5 @@
 .text h1 {
+    font-size: 900;
     font-weight: bolder;
 
     color: rgb(255, 255, 255);
@@ -6,6 +7,7 @@
 }
 
 .text p {
+    color: black;
     font-size: 30px;
 
 }
@@ -15,6 +17,7 @@ section {
 }
 
 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -36,28 +39,27 @@ p {
 }
 
 .text {
-
-    font-weight: 800;
-    font-size: 30px;
+    text-align: center;
+    font-size: 200%;
     color: white;
 
 }
 
 #dec {
-    background-image: linear-gradient(rgb(206, 145, 31) rgb(190, 47, 22));
+
+    background-image: linear-gradient(rgb(233, 30, 30) rgb(163, 45, 24));
     color: whitesmoke;
     text-decoration: none;
-
-
 }
 
 .button {
+    text-align: center;
     text-size-adjust: 10px;
     padding: 10px 40px;
     border-radius: 4px;
     margin-top: 50px;
     font-weight: 800;
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(216, 37, 31);
     background-size: 60px 15px;
     position: absolute;
     top: 95%;
@@ -66,35 +68,84 @@ p {
 }
 
 .mom {
+    margin-top: 60px;
     background-position: center;
-    width: 100vw;
-    height: 100vh;
 }
 
 .nani {
-    align-items: center;
-    margin-left: 350px;
+    font-size: 200%;
+    text-align: center;
+    margin-left: 50%;
     width: 50%;
     padding: 10px;
-}
-
-#nana h1 {
-    text-align: center;
-    font-size: 40px;
-
 }
 
 .nani p {
     text-align-last: center;
 }
 
-.deer {
-    margin-right: 20%;
-}
 
 .box {
+    font-weight: bold;
     display: flex;
-    justify-content: center;
-    margin: 5px;
+    margin-left: 50%;
+    justify-content: space-evenly;
+}
 
+.amount {
+    border-radius: 3px;
+    background-color: rgb(241, 234, 234);
+    width: 80px;
+    height: 25px;
+    border: 10px solidrgb(225, 231, 225)n;
+    padding: 45px;
+    margin: 5px;
+}
+
+#red {
+    border: 5px solid rgb(236, 52, 52);
+    background-color: rgb(211, 157, 157);
+}
+
+.other {
+    color: rgb(167, 147, 147);
+
+    margin-left: 67%;
+
+}
+
+.new1 {
+    margin-left: 50%;
+    border-top: 1px solid rgb(172, 156, 156);
+}
+
+.button2 {
+    background-size: 60px 15px;
+    margin-left: 81%;
+    text-size-adjust: 10px;
+    padding: 10px 40px;
+    border-radius: 4px;
+    margin-top: 50px;
+    font-weight: 800;
+    background-color: rgb(216, 37, 31);
+    top: 95%;
+    left: 50%;
+    transform: translate(-95%, -5%)
+}
+
+.nn2 {
+    background-image: linear-gradient(rgb(245, 63, 63) rgb(190, 47, 22));
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.sec3 {
+    margin-right: 25%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.otp {
+    color: rgb(0, 0, 0);
+    font-size: 200%;
 }
