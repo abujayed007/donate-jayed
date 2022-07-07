@@ -139,13 +139,105 @@ p {
     text-decoration: none;
 }
 
-.sec3 {
+.horror {
     margin-right: 25%;
     margin-left: 30%;
     text-align: center;
 }
 
 .otp {
+    text-align: center;
     color: rgb(0, 0, 0);
     font-size: 200%;
+}
+
+.cd {
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.crd {
+    margin-top: 5%;
+    margin-left: 40%;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+
+
+}
+
+#odd {
+    background-color: rgb(63, 124, 124);
+}
+
+#add {
+    background-color: bisque;
+}
+
+#ddd {
+    background-color: rgb(190, 216, 163);
+}
+
+.card1 {
+    padding: 5px;
+    /* background-color: rgb(148, 218, 194); */
+    /* text-align: center; */
+    /* display: flex; */
+    height: 300px;
+    width: 350px;
+    border: 1px solid gray;
+}
+
+.cd {
+
+    text-align: center;
+}
+
+/* .moon {
+    text-align: center;
+    /* height: 80vh; */
+/* width: 100%; */
+
+.cps {
+    text-align: center;
+    margin: auto;
+
+}
+
+.card1 img {
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.card1 p {
+    font-size: 14px;
+}
+
+footer h1 {
+    color: white;
+    font-size: 30px;
+}
+
+footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: black;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+    margin: auto;
+
+}
+
+.kpm {}
+
+footer p {
+    color: chartreuse;
+
 }
